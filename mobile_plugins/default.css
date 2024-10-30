@@ -1,0 +1,13 @@
+
+#footer, #adminmenu, #submenu, #postexcerpt, #wp-bookmarklet, #viewarc, #viewcat, div.ManageTable div span.ID, h2, #user_info, #quicktags, .zerosize, th, cite, #zeitgeist small, #incominglinks h3 {
+	display: none;
+}
+
+div.ManageTable div
+{
+	margin: 8px 0px;
+}
+div.ManageTable span.ManageActionLink
+{
+	padding: 0px 15px 0px 0px;
+}

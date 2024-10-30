@@ -1,0 +1,515 @@
+/* @override http://23.com/wp-content/plugins/mobileadmin/mobile_plugins/iPhone_iPodTouch/css/iphone.css */
+
+#footer, #adminmenu, #submenu, #postexcerpt, #wp-bookmarklet, #viewarc, #viewcat, div.ManageTable div span.ID, h2, #user_info, #quicktags, .zerosize, th, cite, #zeitgeist small, #incominglinks h3, #protected #login .bottom, #login h1 a,.login ul li a {
+	display: none;
+}
+
+#mce_editor_0_justifyright.mceButtonNormal, #mce_editor_0_justifyleft.mceButtonNormal, #mce_editor_0_justifycenter.mceButtonNormal,
+img.mceSeparatorLine, #mce_editor_0_wp_adv.mceButtonNormal, #mce_editor_0_wp_help.mceButtonNormal,
+#mce_editor_0_numlist.mceButtonNormal,
+#mce_editor_0_bullist.mceButtonNormal, 
+.mceStatusbarBottom {
+	display: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 26em;
+	font-family: Helvetica;
+	-webkit-user-select: none;
+	cursor: default;
+	-webkit-text-size-adjust: none;
+}
+
+body.login {
+	background-color: #fff;
+	
+}
+
+#login {
+	
+	background: url(../images/login-bkg-tile.gif) no-repeat top center;
+	color: #fff;
+	margin: 0em auto 1em;
+	padding: 80px 0 0;
+	width: 425px;
+}
+#loginform p label {
+	color: #fff;
+	font-size: 1.8em;
+	line-height: 2em;
+}
+
+#loginform {
+	background: url(../images/login-bkg-bottom.gif) no-repeat bottom center;
+	padding: 30px 50px 25px;
+}
+
+
+#login .input {
+	font-size: 1.8em;
+	width: 270px;
+}
+input#wp-submit{
+	width: 220px;
+	background-color: #fff;
+	font-size: 1.2em;
+	margin: 20px;
+}
+
+.wrap {
+	padding-top: 0.63em;
+}
+
+body {
+	background: #e5f3ff;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#main {
+	overflow: hidden;
+	position: relative;
+}
+
+#mobilewphead {
+	background: #448abd url(../images/header.png) repeat-x;
+	color: #c3def1;
+	padding: .8em;
+	height: 1.8em;
+}
+
+#mobilewphead h1 a {
+	color: #c3def1;
+}
+
+#mobilewphead h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	letter-spacing: -.05em;
+	margin: 0;
+	text-shadow: rgba(0, 0, 0, 0.6) 0 -1px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-right: 0.63em;
+	padding-left: 0.63em;
+}
+
+#ToggleMobileAdminView {
+	margin-top: 0.94em;
+	margin-left: 1.56em;
+}
+
+#user_info {
+	position: absolute;
+	right: 1em;
+	top: 0;
+	color: #fff;
+	font-size: .9em;
+}
+
+#user_info a {
+	color: #fff;
+}
+
+img.dashboard {
+	float: left;
+}
+
+img.home {
+	float: right;
+}
+
+p.submit, p {
+	margin: 0;
+}
+
+#mobilenav li {
+	display: inline;
+	list-style: none;
+	text-align: center;
+	white-space: nowrap;
+	line-height: 1.8em;
+}
+
+#mobilenav li a {
+	background: #448abd;
+	-webkit-border-top-right-radius: 0.5em;
+	-webkit-border-top-left-radius: 0.5em;
+}
+
+#mobilenav ul {
+	margin: 0;
+	padding: 0.31em 0 0;
+	border-bottom: 0.31em solid #0d324f;
+}
+
+#mobilenav {
+	background: #83b4d8;
+	list-style-type: none;
+	font-size: 1em;
+	text-shadow: rgba(0, 0, 0, 0.6) 0 -1px;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+}
+
+#mobilenav .current {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#mobilenav a {
+	color: #eee;
+	font-size: 1.1em;
+	padding: .3em;
+}
+
+#mobilenav a.activeNavLink {
+	background: #f9fcfe;
+	color: #393939;
+	text-shadow: none;
+	-webkit-border-top-right-radius: 0.5em;
+	-webkit-border-top-left-radius: 0.5em;
+}
+
+#dashboard-top {
+	background: #0d324f url(../images/dash-top.png) repeat-x;
+	height: 6.25em;
+	width: 100%;
+}
+
+img.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #e5f3ff url(../images/dash-top.png) repeat-x;
+}
+
+h3, h2,.wrap legend, legend, #draft-nag.wrap strong {
+	font: bold 1.06em Helvetica;
+	color: #0d324f;
+	margin: 0em;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 -1px;
+}
+
+.updated.fade p, #update-nag, #autosave {
+	padding: 0.31em;
+	margin: 0.63em;
+	border: 1px solid #bababa;
+	background: #f8fec5;
+}
+
+h3.dbx-handle {
+	padding-bottom: 1em;
+}
+
+h3#SearchFiltersToggleLink {
+	margin-right: 10px;
+	margin-top: 0;
+	margin-left: 10px;
+	padding-bottom: 0;
+}
+
+.wp-admin h3 a {
+	color: #363336;
+	font-size: 0.88em;
+}
+
+.dbx-content, #incominglinks ul, #zeitgeist ul, #zeitgeist p, .commentlist li, .dbx-content, .unapproved, .status-draft, .status-publish, .dashboard.wrap {
+	margin-top: 0.63em;
+	list-style-type: none;
+	font-size: 0.8em;
+	font-weight: bold;
+	-webkit-border-radius: 0.63em;
+	-webkit-border-radius: 0.63em;
+	border: 1px solid #ccc;
+	display: block;
+	padding: 0.63em;
+	background: white;
+}
+
+.dashboard.wrap {
+	padding-top: 20px;
+}
+
+.unapproved, .status-draft, .status-publish {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-right: 0.63em;
+	padding-left: 0.63em;
+}
+
+.ManageTable *.alternate {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-border-radius: 0.63em;
+	-webkit-border-radius: 0.63em;
+	border: 1px solid #ccc;
+	padding-bottom: 0.94em;
+	margin-top: 0.94em;
+	background: #fafafa;
+}
+
+#searchform {
+	margin-left: 0.63em;
+	margin-right: 0.63em;
+}
+
+.commentlist {
+	margin: 0em;
+}
+
+#the-comment-list p {
+	font-size: .8em;
+	font-weight: normal;
+}
+
+#zeitgeist ul, #zeitgeist p {
+	margin-top: 20px;
+}
+
+#incominglinks ul {
+	margin-top: .8em;
+}
+
+#zeitgeist h3 {
+	margin-right: 5px;
+	margin-bottom: 15px;
+	font-size: 1.5em;
+}
+
+.wp-admin li, p {
+	line-height: 1.38em;
+}
+
+input#title, #tags-input, fieldset#information input, fieldset#contact-info input, input#pass1, input#pass2, input#s, #your-profile fieldset input {
+	width: 88%;
+	font-size: 1.8em;
+}
+
+fieldset#tagdiv legend {
+	width: 2.4em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#content.mceEditor {
+	margin-left: 0em;
+	margin-right: 0em;
+	width: 90%;
+	font-size: 1em;
+}
+
+fieldset {
+	border-style: none;
+}
+
+.wrap {
+	margin-right: 0.4em;
+	margin-left: 0.4em;
+	margin-top: 0.63em;
+	border-style: solid;
+	border: 1px solid silver;
+	background: #fff;
+}
+
+.wrap p {
+	padding-right: 0.63em;
+	padding-left: 0.63em;
+	padding-bottom: 0.63em;
+}
+
+#tags-input, #title, textarea, fieldset#information input, fieldset#contact-info input, input#pass1, input#pass2, input#s, #your-profile fieldset input {
+	-webkit-border-radius: 0.63em;
+	-webkit-border-radius: 0.31em;
+	border: 1px inset #f7f3fa;
+}
+
+#tags-input:focus, #title:focus, textarea:focus, #your-profile fieldset input:focus {
+	background: #fff;
+	border: none;
+}
+
+p.submit {
+	width: 6em;
+	padding-right: 0.63em;
+	padding-left: 1em;
+	font-size: 2em;
+	display: block;
+}
+
+#autosave {
+	border: 1px solid #bababa;
+	background: #f8fec5;
+	font-size: .4em;
+}
+
+.selectit {
+	display: block;
+}
+
+span#howto {
+	display: block;
+	font-size: .7em;
+	font-style: italic;
+	color: #919191;
+}
+
+.dbx-content ul {
+	padding: 0;
+}
+
+.dbx-content {
+	margin: 0;
+}
+
+legend label {
+	text-align: left;
+	font-size: .8em;
+	text-shadow: none;
+	color: #0d324f;
+}
+
+#approval {
+	padding-right: 0.63em;
+	padding-left: 0.63em;
+	overflow: hidden;
+	color: #343a48;
+}
+
+form#approval. a {
+	background: #000;
+}
+
+#approval li {
+	margin-left: -40px;
+	-webkit-border-radius: 0.63em;
+	-webkit-border-radius: 0.63em;
+	border: 1px solid #ccc;
+	background: #fafafa;
+}
+
+#approval p {
+	line-height: 1.0em;
+	font-family: Helvetica;
+	margin: 0em;
+	padding-top: 0.31em;
+	padding-bottom: 0.31em;
+}
+
+#approval small {
+	font-size: .7em;
+	font-weight: normal;
+}
+
+p small label, .wrap form ul li a {
+	margin: 0.63em 0 0;
+	font-size: 1em;
+	padding: .5em;
+	padding-right: 1.2em;
+}
+
+p label {
+	font-size: .7em;
+	margin: 10;
+}
+
+.js-unapproved p {
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ToggleLink {
+	margin-right: 0em;
+	margin-left: 0em;
+}
+
+p.desc, label {
+	color: #393739;
+	font-size: .6em;
+}
+
+textarea#description {
+	width: 80%;
+}
+
+fieldset select, input#s, input#post-query-submit.button {
+	margin-left: 2.19em;
+}
+
+td {
+	padding: 0.31em;
+}
+
+.navigation {
+	font-size: .8em;
+	padding: 0.63em;
+}
+
+.navigation a {
+	padding: .5em;
+	color: #8f8f8f;
+}
+
+input#s {
+	margin-left: .63em;
+}
+
+div.ManageTable div span a {
+	font-size: .9em;
+}
+
+div.ManageTable div span.PostName {
+	font: bold 1.2em Helvetica;
+	color: #343a48;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 -1px;
+	line-height: 2.5em;
+}
+
+div.ManageTable div span.Comments {
+	float: right;
+	padding-top: 1.25em;
+	font-size: .6em;
+	color: #585858;
+	padding-right: 0.31em;
+}
+
+div.ManageTable div span.ManageActionLink a {
+	padding: 0.31em;
+	margin-left: 0.63em;
+	border: 1px solid #afafaf;
+	color: #303030;
+	line-height: 1.2em;
+	background: #ececec;
+}
+
+span.PostName {
+	padding-left: 0.63em;
+}
+
+fieldset.collapsed .ToggleLink, .ToggleLink.collapsed {
+	background: url(../images/Arrow.png) no-repeat right 0.06em;
+}
+
+.ToggleLink {
+	background: url(../images/ArrowDown.png) no-repeat right 0.06em;
+}
+
+.ManageTable {
+	margin-right: 0.63em;
+	margin-left: 0.63em;
+}
